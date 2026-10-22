@@ -43,3 +43,17 @@ git log --graph --oneline --decorate --all
 ```
 
 ![](img/17.png)
+
+## Acció 3.15
+
+S'ha vinculat el repositori local amb GitHub i s'han publicat la branca principal i les branques de treball.
+
+```bash
+git remote add origin URL_DEL_REPOSITORI
+git push -u origin main
+git push --all origin
+git remote -v
+git branch -av
+```
+
+![](img/18.png)
